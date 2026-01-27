@@ -6,13 +6,13 @@
   <img src="Architechure.svg" alt="CU8B-I Architecture Diagram" width="500px"/>
 </div>
 
-## 🔧 Overview
+## Overview
 
 **CU8B-I** is a custom-designed processor architecture inspired by SAP-1/2/3 and Intel 8085. This Verilog-based project simulates a complete microprocessor system, including memory, control unit, ALU, register bank, and I/O interfacing. Designed during the Summer Internship 2025 at NIT Raipur, it showcases instruction decoding, control word generation, and behavioral execution.
 
 ---
 
-## 🧠 Key Features
+## Key Features
 
 - **Instruction Set:** 213 total instructions with support for conditional CALL, JUMP, RET.
 - **Datapath Modules:**
@@ -32,7 +32,7 @@
 
 ---
 
-## 📦 Project Structure
+## Project Structure
 
 - `REGBANK.v` – Register file for 8-bit/16-bit operations
 - `MEMAR.v` – Memory system and MAR/MDR interface
@@ -45,11 +45,11 @@
 
 ---
 
-## 📦 Setting Up in Vivado 2024.2
+## Setting Up in Vivado 2024.2
 
 To use the CU8B-I project in Vivado:
 
-### 1️⃣ Create a New Project
+### 1️) Create a New Project
 
 1. Open **Vivado 2024.2**
 2. Select `Create New Project`
@@ -59,7 +59,7 @@ To use the CU8B-I project in Vivado:
 
 ---
 
-### 2️⃣ Add Design Sources
+### 2️) Add Design Sources
 
 1. Right-click on **Design Sources** → `Add Sources`
 2. Select `Add or Create Design Sources`
@@ -74,7 +74,7 @@ To use the CU8B-I project in Vivado:
 
 ---
 
-### 3️⃣ Add Simulation Sources
+### 3️) Add Simulation Sources
 
 1. Right-click on **Simulation Sources** → `Add Sources`
 2. Select `Add or Create Simulation Sources`
@@ -83,7 +83,7 @@ To use the CU8B-I project in Vivado:
 
 ---
 
-### 4️⃣ Add Memory Initialization Files
+### 4️) Add Memory Initialization Files
 
 1. Place the following `.data` files in your project directory:
    - `RAM.data`
@@ -97,7 +97,7 @@ To use the CU8B-I project in Vivado:
    
 ---
 
-## 🧪 Example Program: 10-Second Resettable Timer (Program in Assembly)
+## Example Program: 10-Second Resettable Timer (Program in Assembly)
 
 ```assembly
 MVI B,0x0b
