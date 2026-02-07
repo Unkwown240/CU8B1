@@ -1,0 +1,832 @@
+Et Rs2=01111 Lm 
+Ip Mr Li
+Et Rs1=00110 Ef Lc // ADCA
+Ea Lt
+Su=0001 La Ea
+Et Rs2=00110 Lt
+Su=0001 La Ea
+NOP
+Et Rs1=00110 Ef Lc // ADCB
+Et Rs2=00000 Lt 
+Su=0001 La Ea
+Et Rs2=00110 Lt
+Su=0001 La Ea
+NOP
+Et Rs1=00110 Ef Lc // ADCC
+Et Rs2=00001 Lt 
+Su=0001 La Ea
+Et Rs2=00110 Lt
+Su=0001 La Ea
+NOP
+Et Rs1=00110 Ef Lc // ADCD
+Et Rs2=00010 Lt 
+Su=0001 La Ea
+Et Rs2=00110 Lt
+Su=0001 La Ea
+NOP
+Et Rs1=00110 Ef Lc // ADCE
+Et Rs2=00011 Lt 
+Su=0001 La Ea
+Et Rs2=00110 Lt
+Su=0001 La Ea
+NOP
+Et Rs1=00110 Ef Lc // ADCH
+Et Rs2=00100 Lt 
+Su=0001 La Ea
+Et Rs2=00110 Lt
+Su=0001 La Ea
+NOP
+Et Rs1=00110 Ef Lc // ADCL
+Et Rs2=00101 Lt 
+Su=0001 La Ea
+Et Rs2=00110 Lt
+Su=0001 La Ea
+NOP
+Et Rs1=00110 Ef Lc // ADCM
+Et Rs2=01100 Lm
+Mr Lt
+Su=0001 La Ea
+Et Rs2=00110 Lt
+Su=0001 La Ea
+NOP
+Et Rs2=01111 Lm  // ACI
+Ip Mr Lt
+Et Rs1=00110 Ef Lc
+Su=0001 La Ea 
+Et Rs2=00110 Lt
+Su=0001 La Ea 
+NOP
+Ea Lt            // ADDA
+Su=0001 La Ea
+NOP
+Et Rs2=00000 Lt  // ADDB
+Su=0001 La Ea
+NOP
+Et Rs2=00001 Lt  // ADDC
+Su=0001 La Ea
+NOP
+Et Rs2=00010 Lt  // ADDD
+Su=0001 La Ea
+NOP
+Et Rs2=00011 Lt  // ADDE
+Su=0001 La Ea
+NOP
+Et Rs2=00100 Lt  // ADDH
+Su=0001 La Ea
+NOP
+Et Rs2=00101 Lt  // ADDL
+Su=0001 La Ea
+NOP
+Et Rs2=01100 Lm  // ADDM
+Mr Lt
+Su=0001 La Ea
+NOP
+Et Rs2=01111 Lm  // ADI
+Mr Lt Ip
+Su=0001 La Ea
+NOP
+Ea Lt               // ANAA
+Su=0011 La Ea
+NOP
+Et Rs2=00000 Lt     // ANAB  
+Su=0011 La Ea
+NOP
+Et Rs2=00001 Lt     // ANAC  
+Su=0011 La Ea
+NOP
+Et Rs2=00010 Lt     // ANAD  
+Su=0011 La Ea
+NOP
+Et Rs2=00011 Lt     // ANAE  
+Su=0011 La Ea
+NOP
+Et Rs2=00100 Lt     // ANAH  
+Su=0011 La Ea
+NOP
+Et Rs2=00101 Lt     // ANAL  
+Su=0011 La Ea
+NOP
+Et Rs2=01100 Lm     // ANAM
+Mr Lt
+Su=0011 La Ea
+NOP
+Et Rs2=01111 Lm     // ANI
+Mr Lt Ip
+Su=0011 La Ea
+NOP
+Et Rs2=01111 Lm  // CALL CNZ CZ CNC CC CPO CPE CP CM
+Mr Et Rs1=00111 Ip
+Et Rs2=01111 Lm
+Mr Et Rs1=00110 Ip
+Et Rs2=01110 Lm
+Et Rs2=01001 Mw Is
+Et Rs2=01110 Lm
+Et Rs2=01000 Mw Is
+Et Rs1=01111 Rs2=01101
+NOP
+Su=0010 La Ea    // CMA
+NOP
+Ea Et Rs1=00110  // CMC
+Ef La 
+Su=0010 La Ea
+Ea Lc
+La Et Rs2=00110
+NOP
+Et Rs1=00111 Ef Lc  // CMPB
+Ea Et Rs1=00110  
+Et Rs2=00000 Lt
+Su=0000 La Ea
+Et Rs2=00110 La
+Et Rs2=00111 Lc
+NOP
+Et Rs1=00111 Ef Lc  // CMPC
+Ea Et Rs1=00110  
+Et Rs2=00001 Lt
+Su=0000 La Ea
+Et Rs2=00110 La
+Et Rs2=00111 Lc
+NOP
+Et Rs1=00111 Ef Lc  // CMPD
+Ea Et Rs1=00110  
+Et Rs2=00010 Lt
+Su=0000 La Ea
+Et Rs2=00110 La
+Et Rs2=00111 Lc
+NOP
+Et Rs1=00111 Ef Lc  // CMPE
+Ea Et Rs1=00110  
+Et Rs2=00011 Lt
+Su=0000 La Ea
+Et Rs2=00110 La
+Et Rs2=00111 Lc
+NOP
+Et Rs1=00111 Ef Lc  // CMPH
+Ea Et Rs1=00110  
+Et Rs2=00100 Lt
+Su=0000 La Ea
+Et Rs2=00110 La
+Et Rs2=00111 Lc
+NOP
+Et Rs1=00111 Ef Lc  // CMPL
+Ea Et Rs1=00110  
+Et Rs2=00101 Lt
+Su=0000 La Ea
+Et Rs2=00110 La
+Et Rs2=00111 Lc
+NOP
+Et Rs1=00111 Ef Lc  // CMPM
+Ea Et Rs1=00110  
+Et Rs2=01100 Lm  
+Mr Lt
+Su=0000 La Ea
+Et Rs2=00110 La
+Et Rs2=00111 Lc
+NOP
+Et Rs1=00111 Ef Lc  // CPI
+Ea Et Rs1=00110  
+Et Rs2=01111 Lm  
+Mr Lt Ip
+Su=0000 La Ea
+Et Rs2=00110 La
+Et Rs2=00111 Lc
+NOP
+Et Rs2=00001 Lt  // DADB
+Et Rs2=00101 La
+Su=0001 La Ea
+Ea Et Rs1=00101
+Ef Lc Et Rs1=00110
+Et Rs2=00000 Lt
+Et Rs2=00100 La
+Su=0001 La Ea
+Et Rs2=00110 Lt
+Su=0001 La Ea
+Ea Et Rs1=00100
+NOP
+Et Rs2=00011 Lt  // DADD
+Et Rs2=00101 La
+Su=0001 La Ea
+Ea Et Rs1=00101
+Ef Lc Et Rs1=00110
+Et Rs2=00010 Lt
+Et Rs2=00100 La
+Su=0001 La Ea
+Et Rs2=00110 Lt
+Su=0001 La Ea
+Ea Et Rs1=00100
+NOP
+Et Rs2=00101 Lt  // DADH
+Et Rs2=00101 La
+Su=0001 La Ea
+Ea Et Rs1=00101
+Ef Lc Et Rs1=00110
+Et Rs2=00100 Lt
+Et Rs2=00100 La
+Su=0001 La Ea
+Et Rs2=00110 Lt
+Su=0001 La Ea
+Ea Et Rs1=00100
+NOP
+Et Rs1=00111 Ef Lc  // DCRA
+Su=1011 La Ea 
+Et Rs2=00111 Lc   
+NOP
+Et Rs1=00111 Ef Lc  // DCRB
+Et Rs1=00110 Ea  
+Et Rs2=00000 La
+Su=1011 La Ea 
+Et Rs1=00000 Ea
+Et Rs2=00110 La
+Et Rs2=00111 Lc
+NOP
+Et Rs1=00111 Ef Lc  // DCRC
+Et Rs1=00110 Ea  
+Et Rs2=00001 La
+Su=1011 La Ea
+Et Rs1=00001 Ea
+Et Rs2=00110 La
+Et Rs2=00111 Lc
+NOP
+Et Rs1=00111 Ef Lc  // DCRD
+Et Rs1=00110 Ea  
+Et Rs2=00010 La
+Su=1011 La Ea
+Et Rs1=00010 Ea
+Et Rs2=00110 La
+Et Rs2=00111 Lc
+NOP
+Et Rs1=00111 Ef Lc  // DCRE
+Et Rs1=00110 Ea  
+Et Rs2=00011 La
+Su=1011 La Ea
+Et Rs1=00011 Ea
+Et Rs2=00110 La
+Et Rs2=00111 Lc
+NOP
+Et Rs1=00111 Ef Lc  // DCRH
+Et Rs1=00110 Ea  
+Et Rs2=00100 La
+Su=1011 La Ea
+Et Rs1=00100 Ea
+Et Rs2=00110 La
+Et Rs2=00111 Lc
+NOP
+Et Rs1=00111 Ef Lc  // DCRL
+Et Rs1=00110 Ea  
+Et Rs2=00101 La
+Su=1011 La Ea
+Et Rs1=00101 Ea
+Et Rs2=00110 La
+Et Rs2=00111 Lc
+NOP
+Et Rs1=00111 Ef Lc  // DCRM
+Et Rs1=00110 Ea  
+Et Rs2=01100 Lm  
+Mr La
+Su=1011 La Ea
+Mw Ea
+Et Rs2=00110 La
+Et Rs2=00111 Lc
+NOP
+Et Rs1=00111 Ef  // DCXB
+Et Rs1=00110 Ea
+Et Rs2=00001 La
+Su=1011 La Ea
+Et Rs1=00001 Ea
+Ef Lc Lt
+Et Rs2=00000 La
+Su=0000 La Ea
+Et Rs1=00000 Ea
+Et Rs2=00110 La
+Et Rs2=00111 Lt Df
+NOP
+Et Rs1=00111 Ef  // DCXD
+Et Rs1=00110 Ea
+Et Rs2=00011 La
+Su=1011 La Ea
+Et Rs1=00011 Ea
+Ef Lc Lt
+Et Rs2=00010 La
+Su=0000 La Ea
+Et Rs1=00010 Ea
+Et Rs2=00110 La
+Et Rs2=00111 Lt Df
+NOP
+Et Rs1=00111 Ef  // DCXH
+Et Rs1=00110 Ea
+Et Rs2=00101 La
+Su=1011 La Ea
+Et Rs1=00101 Ea
+Ef Lc Lt
+Et Rs2=00100 La
+Su=0000 La Ea
+Et Rs1=00100 Ea
+Et Rs2=00110 La
+Et Rs2=00111 Lt Df
+NOP
+Rs1=00000 Rs2=00000   // HLT
+NOP
+Ei1 Et Rs1=01100   // IN1
+NOP
+Ei2 La   // IN2
+NOP
+Et Rs1=00111 Ef Lc  // INRA
+Su=1010 La Ea 
+Et Rs2=00111 Lc   
+NOP
+Et Rs1=00111 Ef Lc  // INRB
+Et Rs1=00110 Ea  
+Et Rs2=00000 La
+Su=1010 La Ea 
+Et Rs1=00000 Ea
+Et Rs2=00110 La
+Et Rs2=00111 Lc
+NOP
+Et Rs1=00111 Ef Lc  // INRC
+Et Rs1=00110 Ea  
+Et Rs2=00001 La
+Su=1010 La Ea
+Et Rs1=00001 Ea
+Et Rs2=00110 La
+Et Rs2=00111 Lc
+NOP
+Et Rs1=00111 Ef Lc  // INRD
+Et Rs1=00110 Ea  
+Et Rs2=00010 La
+Su=1010 La Ea
+Et Rs1=00010 Ea
+Et Rs2=00110 La
+Et Rs2=00111 Lc
+NOP
+Et Rs1=00111 Ef Lc  // INRE
+Et Rs1=00110 Ea  
+Et Rs2=00011 La
+Su=1010 La Ea
+Et Rs1=00011 Ea
+Et Rs2=00110 La
+Et Rs2=00111 Lc
+NOP
+Et Rs1=00111 Ef Lc  // INRH
+Et Rs1=00110 Ea  
+Et Rs2=00100 La
+Su=1010 La Ea
+Et Rs1=00100 Ea
+Et Rs2=00110 La
+Et Rs2=00111 Lc
+NOP
+Et Rs1=00111 Ef Lc  // INRL
+Et Rs1=00110 Ea  
+Et Rs2=00101 La
+Su=1010 La Ea
+Et Rs1=00101 Ea
+Et Rs2=00110 La
+Et Rs2=00111 Lc
+NOP
+Et Rs1=00111 Ef Lc  // INRM
+Et Rs1=00110 Ea  
+Et Rs2=01100 Lm  
+Mr La
+Su=1010 La Ea
+Mw Ea
+Et Rs2=00110 La
+Et Rs2=00111 Lc
+NOP
+Et Rs1=00111 Ef  // INXB
+Et Rs1=00110 Ea
+Et Rs2=00001 La
+Su=1010 La Ea
+Et Rs1=00001 Ea
+Ef Lc Lt
+Et Rs2=00000 La
+Su=0001 La Ea
+Et Rs1=00000 Ea
+Et Rs2=00110 La
+Et Rs2=00111 Lt Df
+NOP
+Et Rs1=00111 Ef  // INXD
+Et Rs1=00110 Ea
+Et Rs2=00011 La
+Su=1010 La Ea
+Et Rs1=00011 Ea
+Ef Lc Lt
+Et Rs2=00010 La
+Su=0001 La Ea
+Et Rs1=00010 Ea
+Et Rs2=00110 La
+Et Rs2=00111 Lt Df
+NOP
+Et Rs1=00111 Ef  // INXH
+Et Rs1=00110 Ea
+Et Rs2=00101 La
+Su=1010 La Ea
+Et Rs1=00101 Ea
+Ef Lc Lt
+Et Rs2=00100 La
+Su=0001 La Ea
+Et Rs1=00100 Ea
+Et Rs2=00110 La
+Et Rs2=00111 Lt Df
+NOP
+Et Rs2=01111 Lm   // JC JM JMP JNC JNZ JP JPE JPO JZ
+Mr Et Rs1=00111 Ip
+Et Rs2=01111 Lm
+Mr Et Rs1=00110 Ip
+Et Rs1=01111 Rs2=01101
+NOP
+Et Rs2=01111 Lm   // LDA
+Mr Et Rs1=00111 Ip
+Et Rs2=01111 Lm
+Mr Et Rs1=00110 Ip
+Et Rs2=01101 Lm
+Mr La
+NOP
+Et Rs2=01111 Lm    // LXIB
+Mr Et Rs1=00001 Ip
+Et Rs2=01111 Lm
+Mr Et Rs1=00000 Ip
+NOP
+Et Rs2=01111 Lm    // LXID
+Mr Et Rs1=00011 Ip
+Et Rs2=01111 Lm
+Mr Et Rs1=00010 Ip
+NOP
+Et Rs2=01111 Lm    // LXIH
+Mr Et Rs1=00101 Ip
+Et Rs2=01111 Lm
+Mr Et Rs1=00100 Ip
+NOP
+Et Rs2=01111 Lm    // LXISP
+Mr Et Rs1=00111 Ip
+Et Rs2=01111 Lm
+Mr Et Rs1=00110 Ip
+Et Rs1=01110 Rs2=01101
+NOP
+La Et Rs2=00000   // MOVAB
+NOP
+La Et Rs2=00001   // MOVAC
+NOP
+La Et Rs2=00010   // MOVAD
+NOP
+La Et Rs2=00011   // MOVAE
+NOP
+La Et Rs2=00100   // MOVAH
+NOP
+La Et Rs2=00101   // MOVAL
+NOP
+Et Rs2=01100 Lm   // MOVAM
+La Mr   
+NOP
+Et Rs1=00000 Ea   // MOVBA
+NOP
+Et Rs1=00000 Rs2=00001   // MOVBC
+NOP
+Et Rs1=00000 Rs2=00010   // MOVBD
+NOP
+Et Rs1=00000 Rs2=00011   // MOVBE
+NOP
+Et Rs1=00000 Rs2=00100   // MOVBH
+NOP
+Et Rs1=00000 Rs2=00101   // MOVBL
+NOP
+Et Rs2=01100 Lm    // MOVBM
+Et Rs1=00000 Mr   
+NOP
+Et Rs1=00001 Ea   // MOVCA
+NOP
+Et Rs1=00001 Rs2=00000   // MOVCB
+NOP
+Et Rs1=00001 Rs2=00010   // MOVCD
+NOP
+Et Rs1=00001 Rs2=00011   // MOVCE
+NOP
+Et Rs1=00001 Rs2=00100   // MOVCH
+NOP
+Et Rs1=00001 Rs2=00101   // MOVCL
+NOP
+Et Rs2=01100 Lm    // MOVCM
+Et Rs1=00001 Mr   
+NOP
+Et Rs1=00010 Ea   // MOVDA
+NOP
+Et Rs1=00010 Rs2=00000   // MOVDB
+NOP
+Et Rs1=00010 Rs2=00001   // MOVDC
+NOP
+Et Rs1=00010 Rs2=00011   // MOVDE
+NOP
+Et Rs1=00010 Rs2=00100   // MOVDH
+NOP
+Et Rs1=00010 Rs2=00101   // MOVDL
+NOP
+Et Rs2=01100 Lm    // MOVDM
+Et Rs1=00010 Mr   
+NOP
+Et Rs1=00011 Ea   // MOVEA
+NOP
+Et Rs1=00011 Rs2=00000   // MOVEB
+NOP
+Et Rs1=00011 Rs2=00001   // MOVEC
+NOP
+Et Rs1=00011 Rs2=00010   // MOVED
+NOP
+Et Rs1=00011 Rs2=00100   // MOVEH
+NOP
+Et Rs1=00011 Rs2=00101   // MOVEL
+NOP
+Et Rs2=01100 Lm    // MOVEM
+Et Rs1=00011 Mr   
+NOP
+Et Rs1=00100 Ea   // MOVHA
+NOP
+Et Rs1=00100 Rs2=00000   // MOVHB
+NOP
+Et Rs1=00100 Rs2=00001   // MOVHC
+NOP
+Et Rs1=00100 Rs2=00010   // MOVHD
+NOP
+Et Rs1=00100 Rs2=00011   // MOVHE
+NOP
+Et Rs1=00100 Rs2=00101   // MOVHL
+NOP
+Et Rs2=01100 Lm    // MOVHM
+Et Rs1=00100 Mr   
+NOP
+Et Rs1=00101 Ea   // MOVLA
+NOP
+Et Rs1=00101 Rs2=00000   // MOVLB
+NOP
+Et Rs1=00101 Rs2=00001   // MOVLC
+NOP
+Et Rs1=00101 Rs2=00010   // MOVLD
+NOP
+Et Rs1=00101 Rs2=00011   // MOVLE
+NOP
+Et Rs1=00101 Rs2=00100   // MOVLH
+NOP
+Et Rs2=01100 Lm    // MOVLM
+Et Rs1=00101 Mr   
+NOP
+Et Rs2=01100 Lm   // MOVMA
+Mw Ea 
+NOP
+Et Rs2=01100 Lm   // MOVMB
+Mw Et Rs2=00000
+NOP
+Et Rs2=01100 Lm   // MOVMC
+Mw Et Rs2=00001
+NOP
+Et Rs2=01100 Lm   // MOVMD
+Mw Et Rs2=00010
+NOP
+Et Rs2=01100 Lm   // MOVME
+Mw Et Rs2=00011
+NOP
+Et Rs2=01100 Lm   // MOVMH
+Mw Et Rs2=00100
+NOP
+Et Rs2=01100 Lm   // MOVML
+Mw Et Rs2=00101
+NOP
+Et Rs2=01111 Lm   // MVIA
+Mr La Ip
+NOP
+Et Rs2=01111 Lm   // MVIB
+Mr Et Rs1=00000 Ip
+NOP
+Et Rs2=01111 Lm   // MVIC
+Mr Et Rs1=00001 Ip
+NOP
+Et Rs2=01111 Lm   // MVID
+Mr Et Rs1=00010 Ip
+NOP
+Et Rs2=01111 Lm   // MVIE
+Mr Et Rs1=00011 Ip
+NOP
+Et Rs2=01111 Lm   // MVIH
+Mr Et Rs1=00100 Ip
+NOP
+Et Rs2=01111 Lm   // MVIL
+Mr Et Rs1=00101 Ip
+NOP
+Et Rs2=01111 Lm   // MVIM
+Mr Et Rs1=00110 Ip
+Et Rs2=01100 Lm
+Mw Et Rs2=00110
+NOP
+Ea Lt               // ORAA
+Su=0100 La Ea
+NOP
+Et Rs2=00000 Lt     // ORAB  
+Su=0100 La Ea
+NOP
+Et Rs2=00001 Lt     // ORAC  
+Su=0100 La Ea
+NOP
+Et Rs2=00010 Lt     // ORAD  
+Su=0100 La Ea
+NOP
+Et Rs2=00011 Lt     // ORAE  
+Su=0100 La Ea
+NOP
+Et Rs2=00100 Lt     // ORAH  
+Su=0100 La Ea
+NOP
+Et Rs2=00101 Lt     // ORAL  
+Su=0100 La Ea
+NOP
+Et Rs2=01100 Lm     // ORAM
+Mr Lt
+Su=0100 La Ea
+NOP
+Et Rs2=01111 Lm     // ORI
+Mr Lt Ip
+Su=0100 La Ea
+NOP
+Lo3 Et Rs2=01100   // OUT3
+NOP
+Lo4 Ea   // OUT4
+NOP
+Ds                 // POPB
+Et Rs2=01110 Lm
+Mr Et Rs1=00000 Ds
+Et Rs2=01110 Lm
+Mr Et Rs1=00001
+NOP
+Ds                 // POPD
+Et Rs2=01110 Lm
+Mr Et Rs1=00010 Ds
+Et Rs2=01110 Lm
+Mr Et Rs1=00011
+NOP
+Ds                 // POPH
+Et Rs2=01110 Lm
+Mr Et Rs1=00100 Ds
+Et Rs2=01110 Lm
+Mr Et Rs1=00101
+NOP
+Ds                 // POPPSW
+Et Rs2=01110 Lm
+Mr La Ds
+Et Rs2=01110 Lm
+Mr Df Lt 
+NOP
+Et Rs2=01110 Lm    // PUSHB
+Mw Et Rs2=00001 Is
+Et Rs2=01110 Lm
+Mw Et Rs2=00000 Is
+NOP
+Et Rs2=01110 Lm    // PUSHD
+Mw Et Rs2=00011 Is
+Et Rs2=01110 Lm
+Mw Et Rs2=00010 Is
+NOP
+Et Rs2=01110 Lm    // PUSHH
+Mw Et Rs2=00101 Is
+Et Rs2=01110 Lm
+Mw Et Rs2=00100 Is
+NOP
+Et Rs2=01110 Lm    // PUSHPSW 
+Mw Df Lt Is
+Et Rs2=01110 Lm
+Mw Ea Is
+NOP
+Su=0110 La Ea   // RAL
+NOP
+Su=0111 La Ea   // RAR
+NOP
+Su=1000 La Ea   // RLC
+NOP
+Su=1001 La Ea   // RRC
+NOP
+Ds                 // RET RNZ RZ RNC RC RPO RPE RP RM
+Et Rs2=01110 Lm
+Mr Et Rs1=01000 Ds
+Et Rs2=01110 Lm
+Mr Et Rs1=01001
+NOP
+Et Rs1=00110 Ef Lc // SBBA
+Ea Lt
+Su=0000 La Ea
+Et Rs2=00110 Lt
+Su=0000 La Ea
+NOP
+Et Rs1=00110 Ef Lc // SBBB
+Et Rs2=00000 Lt 
+Su=0000 La Ea
+Et Rs2=00110 Lt
+Su=0000 La Ea
+NOP
+Et Rs1=00110 Ef Lc // SBBC
+Et Rs2=00001 Lt 
+Su=0000 La Ea
+Et Rs2=00110 Lt
+Su=0000 La Ea
+NOP
+Et Rs1=00110 Ef Lc // SBBD
+Et Rs2=00010 Lt 
+Su=0000 La Ea
+Et Rs2=00110 Lt
+Su=0000 La Ea
+NOP
+Et Rs1=00110 Ef Lc // SBBE
+Et Rs2=00011 Lt 
+Su=0000 La Ea
+Et Rs2=00110 Lt
+Su=0000 La Ea
+NOP
+Et Rs1=00110 Ef Lc // SBBH
+Et Rs2=00100 Lt 
+Su=0000 La Ea
+Et Rs2=00110 Lt
+Su=0000 La Ea
+NOP
+Et Rs1=00110 Ef Lc // SBBL
+Et Rs2=00101 Lt 
+Su=0000 La Ea
+Et Rs2=00110 Lt
+Su=0000 La Ea
+NOP
+Et Rs1=00110 Ef Lc // SBBM
+Et Rs2=01100 Lm
+Mr Lt
+Su=0000 La Ea
+Et Rs2=00110 Lt
+Su=0000 La Ea
+NOP
+Et Rs2=01111 Lm   // SBI
+Ip Mr Lt
+Et Rs1=00110 Ef Lc
+Su=0000 La Ea 
+Et Rs2=00110 Lt
+Su=0000 La Ea 
+NOP
+Et Rs2=01111 Lm   // STA
+Mr Et Rs1=00111 Ip
+Et Rs2=01111 Lm
+Mr Et Rs1=00110 Ip
+Et Rs2=01101 Lm
+Mw Ea
+NOP
+Ea Et Rs1=00110   // STC
+La Ef Lc
+Su=1010 La Ea Df
+Ea Lc
+La Et Rs2=00110
+NOP
+Ea Lt            // SUBA
+Su=0000 La Ea
+NOP
+Et Rs2=00000 Lt  // SUBB
+Su=0000 La Ea
+NOP
+Et Rs2=00001 Lt  // SUBC
+Su=0000 La Ea
+NOP
+Et Rs2=00010 Lt  // SUBD
+Su=0000 La Ea
+NOP
+Et Rs2=00011 Lt  // SUBE
+Su=0000 La Ea
+NOP
+Et Rs2=00100 Lt  // SUBH
+Su=0000 La Ea
+NOP
+Et Rs2=00101 Lt  // SUBL
+Su=0000 La Ea
+NOP
+Et Rs2=01100 Lm  // SUBM
+Mr Lt
+Su=0000 La Ea
+NOP
+Et Rs2=01111 Lm  // SUI
+Mr Lt Ip
+Su=0000 La Ea
+NOP
+Ea Lt               // XRAA
+Su=0101 La Ea
+NOP
+Et Rs2=00000 Lt     // XRAB  
+Su=0101 La Ea
+NOP
+Et Rs2=00001 Lt     // XRAC  
+Su=0101 La Ea
+NOP
+Et Rs2=00010 Lt     // XRAD  
+Su=0101 La Ea
+NOP
+Et Rs2=00011 Lt     // XRAE  
+Su=0101 La Ea
+NOP
+Et Rs2=00100 Lt     // XRAH  
+Su=0101 La Ea
+NOP
+Et Rs2=00101 Lt     // XRAL  
+Su=0101 La Ea
+NOP
+Et Rs2=01100 Lm     // XRAM
+Mr Lt
+Su=0101 La Ea
+NOP
+Et Rs2=01111 Lm     // XRI
+Mr Lt Ip
+Su=0101 La Ea
+NOP

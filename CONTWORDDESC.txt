@@ -1,0 +1,43 @@
+Et, Ip, Is, Ds, Rs1, Rs2, Lm, Mr, Mw, Li, La, Ea, Lt, Df, Ef, Lc, Su, Ei1, Ei2, Lo3, Lo4
+
+Et -> (ENABLE TRANSFER) When enabled, it allows transfers to take place in Register Bank as (Rs1 = Rs2) format where selected register/wire of Rs1 is assigned the current value of selected register/wire of Rs2
+
+Ip -> (INCREMENT PC) When enabled, PC gets incremented by 1
+
+Is -> (INCREMENT SP) When enabled, SP gets incremented by 1
+
+Ds -> (DECREMENT SP) When enabled, SP gets decremented by 1
+
+Rs1 -> (REGISTER SELECT 1) It has 5 select bits, the selected register/wire's value gets assigned by Rs2
+
+Rs2 -> (REGISTER SELECT 2) It has 5 select bits, the selected register/wire's value is assigned to Rs1
+
+Lm -> (LOAD MAR) When enabled, contents of internal bus is loaded in MAR, and value at this address is loaded in MDR
+
+Mr -> (MEMORY READ) When enabled, the contents of the MDR are put on lower nibble of internal bus
+
+Mw -> (MEMORY WRITE) When enabled, the contents of the internal bus is loaded in MDR and at the address stored in MAR
+
+Li -> (LOAD IR) When enabled, lower nibble of the internal bus is loaded in IR
+
+La -> (LOAD ACCUMULATOR) When enabled, lower nibble of internal bus is loaded in register A
+
+Ea -> (ENABLE ACCUMULATOR) When enabled, the contents of register A is put on lower nibble of internal bus
+
+Lt -> (LOAD TEMP) When enabled, the lower nibble of internal bus is loaded in register TMP
+
+Df -> (DISABLE FLAG) When enabled, it disables the effect of arithmetic operations on the value of flag register
+
+Ef -> (ENABLE FLAG) When enabled, the contents of flag register is put on the lower nibble of internal bus
+
+Lc -> (LOAD CARRY) When enabled, the value of carry flag is set to LSB of lower nibble of internal bus
+
+Su -> (SELECT OPERATION) It is a 4 bit value and has 10 valid arithmetic operations under it, used for selecting required operation in ALU
+
+Ei1 -> (ENABLE INPUT PORT 1) When enabled, the contents of INPUT PORT 1 is put on the internal bus
+
+Ei2 -> (ENABLE INPUT PORT 2) When enabled, the contents of INPUT PORT 2 is put on the lower nibble of internal bus
+
+Lo3 -> (LOAD OUTPUT PORT 3) When enabled, it loads the content of internal bus in OUTPUT PORT 3
+
+Lo4 -> (LOAD OUTPUT PORT 4) When enabled, it loads the content of lower nibble of internal bus in OUTPUT PORT 4
